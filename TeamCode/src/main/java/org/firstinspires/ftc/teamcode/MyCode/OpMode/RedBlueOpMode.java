@@ -1,7 +1,7 @@
-package org.firstinspires.ftc.teamcode.OpModes;
+package org.firstinspires.ftc.teamcode.MyCode.OpMode;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import org.firstinspires.ftc.teamcode.Assets.HardwareBuilder;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.HardwareBuilder;
 
 public class RedBlueOpMode extends LinearOpMode {
     HardwareBuilder robot = new HardwareBuilder(this, false);

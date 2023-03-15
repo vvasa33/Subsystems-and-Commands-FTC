@@ -1,14 +1,12 @@
-package org.firstinspires.ftc.teamcode.Assets.Subsystems;
+package org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Gamepad;
 
-import org.firstinspires.ftc.teamcode.Assets.Hardware.HardwareConstants;
-
-
-import org.firstinspires.ftc.teamcode.Assets.Hardware.BaseHardware;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Hardware.BaseHardware;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Hardware.HardwareConstants;
 
 public class Lift extends BaseHardware {
 
@@ -109,12 +107,12 @@ public class Lift extends BaseHardware {
             stackSize--;
             if (stackSize < 0) stackSize = 0;
             liftState = LiftState.STACK;
-            lift.setTargetPosition(stackSize * HardwareConstants.STACK_CONE_OFFSET);
-            lift.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-            lift.setPower(HardwareConstants.LIFT_UP_CONST);
-            lift2.setTargetPosition(stackSize * HardwareConstants.STACK_CONE_OFFSET);
-            lift2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-            lift2.setPower(HardwareConstants.LIFT_UP_CONST);
+//            lift.setTargetPosition(stackSize * HardwareConstants.STACK_CONE_OFFSET);
+//            lift.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+//            lift.setPower(HardwareConstants.LIFT_UP_CONST);
+//            lift2.setTargetPosition(stackSize * HardwareConstants.STACK_CONE_OFFSET);
+//            lift2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+//            lift2.setPower(HardwareConstants.LIFT_UP_CONST);
 
             setTargetPositions(stackSize * HardwareConstants.STACK_CONE_OFFSET);
             setModes(DcMotor.RunMode.RUN_TO_POSITION);

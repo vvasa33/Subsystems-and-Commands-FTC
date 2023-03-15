@@ -1,9 +1,12 @@
-package org.firstinspires.ftc.teamcode.Assets;
+package org.firstinspires.ftc.teamcode.MyCode.Assets;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
-import org.firstinspires.ftc.teamcode.Assets.Hardware.BaseHardware;
-import org.firstinspires.ftc.teamcode.Assets.Subsystems.*;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Hardware.BaseHardware;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems.*;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems.Claw;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems.Drivebase;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems.Lift;
 
 public class HardwareBuilder extends BaseHardware {
     public Claw claw;

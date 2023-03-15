@@ -1,11 +1,10 @@
-package org.firstinspires.ftc.teamcode.Assets.Subsystems;
+package org.firstinspires.ftc.teamcode.MyCode.Assets.Subsystems;
 
-import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.hardware.Servo;
 
-import org.firstinspires.ftc.teamcode.Assets.Hardware.BaseHardware;
-import org.firstinspires.ftc.teamcode.Assets.Hardware.HardwareConstants;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Hardware.BaseHardware;
+import org.firstinspires.ftc.teamcode.MyCode.Assets.Hardware.HardwareConstants;
 
 public class Claw extends BaseHardware {
     private static Servo clawServo;
